@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-fondo: #3a2b32;
+    --color-fondo-transparente: #ffffffbc;
+    --color-body: #ece8e8;
+    --color-fond-html: linear-gradient(#ffc607, #3a2b32);
+}
+
+body {
+    font-family: Arial;
+    background: var(--color-fond-html);
+ 
+}
+
+.img {
+    width: 50%;
+}
+
+.card {
+
+    width: 300px;
+    margin: 200px auto;
+    background-color: var(--color-body);
+    box-shadow: 0 0 20px -6px #000;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.card_figure {
+    background-color: var(--color-fondo);
+    border-radius: 30px;
+    height: 250px;
+    position: relative;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.card_character {
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 90%;
+    -webkit-filter: drop-shadow(2px 2px);
+    filter: drop-shadow(2px 2px);
+}
+
+.card_texts {
+    padding: 2rem 1.5rem;
+    line-height: 1.5;
+}
+
+.card_title {
+    font-size: 1.7rem;
+    margin-bottom: 18px;
+}
+
+.boton {
+    display: block;
+
+    color: #fff;
+    background-color: var(--color-fondo);
+    padding: 1rem;
+    margin: 5px auto;
+    text-decoration: none;
+    width: 70%;
+    text-align: center;
+    -o-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+}
