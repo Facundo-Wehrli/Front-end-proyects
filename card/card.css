@@ -26,22 +26,22 @@ body {
     margin: 200px auto;
     background-color: var(--color-body);
     box-shadow: 0 0 20px -6px #000;
-    border-radius: 30px;
+    -o-border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
-    -o-border-radius: 30px;
+    border-radius: 30px;
 }
 
 .card_figure {
     background-color: var(--color-fondo);
-    border-radius: 30px;
+    -o-border-radius: 30px;
     height: 250px;
     position: relative;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
-    -o-border-radius: 30px;
+    border-radius: 30px;
 }
 
 .card_character {
